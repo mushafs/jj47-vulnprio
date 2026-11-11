@@ -1,0 +1,19 @@
+# Never commit secrets
+*.key
+*.pem
+*.p12
+*.crt
+.env
+*.keystore
+logstash.keystore
+**/secrets/
+**/credentials*
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+# VM images
+*.ova
+*.vmdk
+*.vdi
+*.iso
